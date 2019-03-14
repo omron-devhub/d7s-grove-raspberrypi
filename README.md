@@ -1,4 +1,4 @@
-# 2smpb02e-grove-raspberrypi
+# d7s-grove-raspberrypi
 It is a module for evaluating Omron sensor D7S with Raspberry Pi 3 Model B and a sample program when using a module.
 
 D7S is the world's smallest class seismic sensor.
