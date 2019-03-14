@@ -111,9 +111,13 @@ class GroveD7s:
     def readByte16(self,register16):
         a1 = (register16 >> 8) & 0xFF
         a0 = register16 & 0xFF
+        register16 += 1
+        b1 = (register16 >> 8) & 0xFF
+        b0 = register16 & 0xFF
         try:
             bus.write_i2c_block_data(self.I2C_ADDR, a1, [a0])
             data16h = bus.read_byte(self.I2C_ADDR)
+            bus.write_i2c_block_data(self.I2C_ADDR, b1, [b0])
             data16l = bus.read_byte(self.I2C_ADDR)
             return (data16h << 8) | (data16l & 0xFF)
         except OSError:
