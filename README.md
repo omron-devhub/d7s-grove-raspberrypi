@@ -30,6 +30,7 @@ When you run sample_gui_d7s.py, you can see the following graph.
 2. Open Terminal and execute the following command.    
     ```
     $ mkdir omron_sensor
+    $ cd omron_sensor
     $ git clone https://github.com/omron-devhub/d7s-grove-raspberrypi.git
     ```
 

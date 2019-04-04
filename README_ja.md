@@ -7,7 +7,7 @@ I2Cインターフェースでセンサ内の地震関連情報の取得も可�
 
 ## 言語
 - [英語](./README.md)
-- [日本語](./README_ja.md)
+- [日本語](./README_ja.md)
 
 ## 概要
 - grove_d7s.py  
@@ -30,11 +30,12 @@ sample_gui_d7s.py を実行すると以下のようなグラフを確認する�
 2. ターミナルを開き、次のコマンドを実行します。  
     ```
     $ mkdir omron_sensor
+    $ cd omron_sensor
     $ git clone https://github.com/omron-devhub/d7s-grove-raspberrypi.git
     ```
 
 ## 使い方
-サンプルプログラムを動作させる手順です。
+サンプルプログラムを動作させる手順です。
 
 -  sample_d7s.py  
 ターミナルを開き、次のコマンドを実行します。  
